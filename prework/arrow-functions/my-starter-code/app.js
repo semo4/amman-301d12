@@ -223,6 +223,6 @@ console.log(joe.scopeArrow());
 // 1. What is "this" when joe.scope() is invoked?
 //  it represent the object that we defined before 
 // 2. What is "this" when joe.scopeArrow() is invoked?
-// it will return undefined 
+// it represent a window object 
 // 3. Explain why "this" is different when an arrow function is used.
 // arrow function use this as window or global object they inherit it from perant scope 
